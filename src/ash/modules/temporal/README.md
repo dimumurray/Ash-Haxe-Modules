@@ -2,27 +2,56 @@
 
 * [Transient Module]()
 
-### Transient Module
-Description
+---
+### **Transient Module**
 
-The `Transient` module provides a uniform way to remove components from an entity after a specified duration.
+The `Transient` module provides a uniform way to remove components from an entity after a specified duration. Optionally set the `removeAll` flag on a Transient component to effectively destroy an entity.
 
-Collection
+#####Module Composition
 
 | Components  | Nodes  | Systems |
 | :------------: |:---------------:| :-----:|
 | `Transient`     | `TransientNode` | `TransientSystem` |
 
+#####External Dependencies
+* None
 
-Dependencies
+#####Sample Usage 
+```javascript
+/**
+ * Description:
+ *    Remove components of types ComponentClassA and ComponentClassB
+ *    from an entity after 4 seconds.
+ */
 
-Usage
+// Caveat: Always add the TransientSystem to 
+//         the very end of the system chain.
+engine.addSystem(SystemA);
+engine.addSystem(SystemB);
+...
+engine.addSystem(TransientSystem);
+
+// Create an instance of the Transient component 
+// setting duration and the list of component types.
+var transient:Transient = new Transient();
+transient.duration = 4.0;
+transient.components = [ComponentClassA, ComponentClassB];
+
+// Add the component to the entity
+var entity:Entity = new Entity();
+entity.add(new Transient(durationInSeconds));
+```
 
 ```javascript
-// Create a Transient Component with a set duration
+/**
+ * Description:
+ *    Destroys an entity at the end of the update cycle (assumes
+ *    that the TransientSystem has the lowest priority ie. last
+ *    added to the system chain).
+ */
+var transient:Transient = new Transient();
+transient.removeAll = true;
 
 var entity:Entity = new Entity();
-var duration:Float = 4.0;
-
-entity.add(new Transient(duration));
+entity.add(new Transient());
 ```
