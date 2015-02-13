@@ -2,8 +2,7 @@
 
 * [Transient Module]()
 
----
-#### Transient Module
+### Transient Module
 Description
 
 The `Transient` module provides a uniform way to remove components from an entity after a specified duration.
