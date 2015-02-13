@@ -1,6 +1,6 @@
 # **ASH HAXE MODULES** #
 
-* A set of modules for use with the Ash-HaXe ECS framework.
+* A set of modules for use with the [haXe port](https://github.com/nadako/Ash-HaXe) (thanks nadako) of [Richard Lord's Ash ECS framework](http://www.ashframework.org/).
 * Version 0.0.1
 
 ### What is an ash module? ###
