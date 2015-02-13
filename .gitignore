@@ -1,0 +1,5 @@
+# Build and Release Folders
+.idea
+export/
+*.iml
+out/
