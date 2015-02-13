@@ -26,5 +26,7 @@ package ash.modules.temporal.components;
 class Transient {
     public var components:Array<Class<Dynamic>> = null;
     public var duration:Float = 0.0;
+    public var removeAll:Bool = false;
+
     public function new() {}
 }

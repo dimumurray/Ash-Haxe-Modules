@@ -45,9 +45,9 @@ class TransientSystem extends ListIteratingSystem<TransientNode> {
 
         if (node.transient.duration <= 0) {
 
-            if (node.transient.components == null || node.transient.components.length == 0) {
+            if (node.transient.removeAll) {
                 engine.removeEntity(node.entity);
-            } else {
+            } else if (node.transient.components != null) {
 
                 for (componentClass in node.transient.components) {
 
