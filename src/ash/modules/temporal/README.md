@@ -49,9 +49,9 @@ entity.add(transientComponent);
  *    that the TransientSystem has the lowest priority ie. last
  *    added to the system chain).
  */
-var transient:Transient = new Transient();
-transient.removeAll = true;
+var transientComponent:Transient = new Transient();
+transientComponent.removeAll = true;
 
 var entity:Entity = new Entity();
-entity.add(new Transient());
+entity.add(transientComponent);
 ```
