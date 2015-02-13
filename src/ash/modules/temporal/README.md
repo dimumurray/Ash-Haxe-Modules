@@ -33,13 +33,13 @@ engine.addSystem(TransientSystem);
 
 // Create an instance of the Transient component 
 // setting duration and the list of component types.
-var transient:Transient = new Transient();
-transient.duration = 4.0;
-transient.components = [ComponentClassA, ComponentClassB];
+var transientComponent:Transient = new Transient();
+transientComponent.duration = 4.0;
+transientComponent.components = [ComponentClassA, ComponentClassB];
 
 // Add the component to the entity
 var entity:Entity = new Entity();
-entity.add(new Transient(durationInSeconds));
+entity.add(transientComponent);
 ```
 
 ```javascript
