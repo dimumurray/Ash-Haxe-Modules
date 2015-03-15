@@ -9,7 +9,7 @@ An Ash module is a collection of components, nodes and/or systems geared towards
 
 ### Categories ###
 * Spatial
-* [Temporal](https://github.com/dimumurray/Ash-Haxe-Modules/tree/master/src/ash/modules/temporal#temporal-modules)
- * [Transient](https://github.com/dimumurray/Ash-Haxe-Modules/tree/master/src/ash/modules/temporal#transient-module)
-* [Transitional](https://github.com/dimumurray/Ash-Haxe-Modules/tree/master/src/ash/modules/transition#transition-modules)
-  * [FSM Transition](https://github.com/dimumurray/Ash-Haxe-Modules/tree/master/src/ash/modules/transition#fsm-transition-module) 
+* [Temporal](https://github.com/dimumurray/Ash-Haxe-Modules/tree/master/ash/modules/temporal#temporal-modules)
+ * [Transient](https://github.com/dimumurray/Ash-Haxe-Modules/tree/master/ash/modules/temporal#transient-module)
+* [Transitional](https://github.com/dimumurray/Ash-Haxe-Modules/tree/master/ash/modules/transition#transition-modules)
+  * [FSM Transition](https://github.com/dimumurray/Ash-Haxe-Modules/tree/master/ash/modules/transition#fsm-transition-module) 
