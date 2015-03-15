@@ -1,5 +1,5 @@
 {
-  "name":"ash-haxe-modules",
+  "name":"ash-modules",
   "url":"https://github.com/dimumurray/Ash-Haxe-Modules.git",
   "license":"MIT",
   "tags":["ash", "modules", "component", "entity", "game", "system"],
