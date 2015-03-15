@@ -30,7 +30,7 @@ import ash.tools.ListIteratingSystem;
 import ash.modules.transition.components.*;
 import ash.modules.transition.nodes.FSMTransitionNode;
 
-import typedefs.TweenData;
+import ash.typedefs.TweenData;
 
 import motion.Actuate;
 import motion.easing.*;

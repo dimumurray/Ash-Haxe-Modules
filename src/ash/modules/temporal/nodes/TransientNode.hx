@@ -28,5 +28,6 @@ import ash.modules.temporal.components.Transient;
 
 class TransientNode extends Node<TransientNode> {
     public var transient:Transient;
+
     public function new() {}
 }

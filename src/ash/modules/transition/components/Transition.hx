@@ -23,7 +23,7 @@
  **/
 package ash.modules.transition.components;
 
-import typedefs.TweenData;
+import ash.typedefs.TweenData;
 
 class Transition {
     // Tween parameters

@@ -21,14 +21,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  **/
-package ash.modules.spatial.components;
+package ash.modules.transition.nodes;
 
-class Transform2D {
-    public var x:Float;
-    public var y:Float;
+import ash.core.Node;
+import ash.modules.transition.components.FSMInfo;
 
-    public var rotation:Float;
-    public var scale:Float;
+class ViewStateSelectNode extends Node<ViewStateSelectNode> {
+    public var info:FSMInfo;
 
     public function new() {}
 }

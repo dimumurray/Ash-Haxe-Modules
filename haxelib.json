@@ -1,0 +1,15 @@
+{
+  "name":"ash-haxe-modules",
+  "url":"https://github.com/dimumurray/Ash-Haxe-Modules.git",
+  "license":"MIT",
+  "tags":["ash", "modules", "component", "entity", "game", "system"],
+  "description":"A collection of components, nodes and systems for use with the Ash ECS framework",
+  "version":"0.0.1",
+  "contributors":["dimumurray"],
+  "dependencies":{
+    "actuate":"",
+    "ash":"",
+    "away3d":"",
+    "openfl":""
+  }
+}

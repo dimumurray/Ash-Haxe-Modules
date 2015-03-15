@@ -1,6 +1,6 @@
-package typedefs;
+package ash.typedefs;
 
-import typedefs.EaseData;
+import ash.typedefs.EaseData;
 
 typedef TweenData = {
     component:String,
@@ -8,5 +8,6 @@ typedef TweenData = {
     duration:Float,
     from:Dynamic,
     to:Dynamic,
+    overwrite:Bool,
     ease:EaseData
 }
