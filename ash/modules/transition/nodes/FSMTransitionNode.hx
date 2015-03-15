@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  **/
-package
+package ash.modules.transition.nodes;
 
 import ash.modules.transition.components.FSMInfo;
 import ash.modules.transition.components.Transition;

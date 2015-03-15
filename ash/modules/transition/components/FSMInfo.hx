@@ -1,4 +1,4 @@
-package
+package ash.modules.transition.components;
 
 import ash.fsm.EntityStateMachine;
 

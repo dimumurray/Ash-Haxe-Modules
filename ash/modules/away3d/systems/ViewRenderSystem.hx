@@ -1,4 +1,4 @@
-package
+package ash.modules.away3d.systems;
 
 import ash.core.Engine;
 import ash.core.System;

@@ -1,4 +1,4 @@
-package
+package ash.typedefs;
 
 typedef EaseData = {
     type:String,

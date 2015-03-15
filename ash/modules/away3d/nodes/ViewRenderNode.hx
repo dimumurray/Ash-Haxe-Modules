@@ -1,4 +1,4 @@
-package;
+package ash.modules.away3d.nodes;
 
 import ash.core.Node;
 import ash.modules.away3d.components.View;

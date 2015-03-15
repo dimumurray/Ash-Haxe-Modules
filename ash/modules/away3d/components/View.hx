@@ -1,4 +1,4 @@
-package
+package ash.modules.away3d.components;
 
 import away3d.containers.View3D;
 

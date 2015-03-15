@@ -1,4 +1,4 @@
-package
+package ash.typedefs;
 
 import ash.typedefs.EaseData;
 
