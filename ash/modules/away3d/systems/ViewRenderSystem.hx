@@ -19,6 +19,10 @@ class ViewRenderSystem extends System {
 
         nodes = engine.getNodeList(ViewRenderNode);
 
+        for (node in nodes) {
+            onNodeAdded(node);
+        }
+
         nodes.nodeAdded.add(onNodeAdded);
         nodes.nodeRemoved.add(onNodeRemoved);
     }
