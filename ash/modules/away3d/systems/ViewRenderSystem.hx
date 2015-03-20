@@ -1,5 +1,6 @@
 package ash.modules.away3d.systems;
 
+import openfl.events.Event;
 import ash.core.Engine;
 import ash.core.System;
 import ash.core.NodeList;
@@ -17,14 +18,20 @@ class ViewRenderSystem extends System {
         super.addToEngine(engine);
 
         nodes = engine.getNodeList(ViewRenderNode);
+
+        nodes.nodeAdded.add(onNodeAdded);
+        nodes.nodeRemoved.add(onNodeRemoved);
     }
 
-    override public function update(time:Float):Void {
-
-        for (node in nodes) {
-            node.view.container.render();
-        }
-
+    private function onNodeAdded(node:ViewRenderNode):Void {
+        node.view.container.setRenderCallback(
+            function(e:Event):Void {
+                node.view.container.render();
+            }
+        );
     }
 
+    private function onNodeRemoved(node:ViewRenderNode):Void {
+        node.view.container.setRenderCallback(null);
+    }
 }
