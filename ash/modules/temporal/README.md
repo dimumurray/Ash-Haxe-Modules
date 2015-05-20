@@ -17,7 +17,7 @@ The `Transient` module provides a uniform way to remove components from an entit
 * None
 
 #####Sample Usage 
-```javascript
+```haxe
 /**
  * Description:
  *    Remove components of types ComponentClassA and ComponentClassB
@@ -42,7 +42,7 @@ var entity:Entity = new Entity();
 entity.add(transientComponent);
 ```
 
-```javascript
+```haxe
 /**
  * Description:
  *    Destroys an entity at the end of the update cycle (assumes
