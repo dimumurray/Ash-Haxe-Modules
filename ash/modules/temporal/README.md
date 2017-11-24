@@ -7,7 +7,7 @@
 
 The `Transient` module provides a uniform way to remove components from an entity after a specified duration. Optionally set the `removeAll` flag on a Transient component to effectively destroy an entity.
 
-##### Module Composition
+#### Module Composition
 
 | Components  | Nodes  | Systems |
 | :------------: |:---------------:| :-----:|
