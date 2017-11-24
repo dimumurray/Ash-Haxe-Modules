@@ -1,4 +1,4 @@
-#TEMPORAL MODULES
+# TEMPORAL MODULES
 
 * [Transient Module](https://github.com/dimumurray/Ash-Haxe-Modules/blob/master/src/ash/modules/temporal/README.md#transient-module)
 
@@ -7,16 +7,16 @@
 
 The `Transient` module provides a uniform way to remove components from an entity after a specified duration. Optionally set the `removeAll` flag on a Transient component to effectively destroy an entity.
 
-#####Module Composition
+##### Module Composition
 
 | Components  | Nodes  | Systems |
 | :------------: |:---------------:| :-----:|
 | `Transient`     | `TransientNode` | `TransientSystem` |
 
-#####External Dependencies
+##### External Dependencies
 * None
 
-#####Sample Usage 
+##### Sample Usage 
 ```haxe
 /**
  * Description:
