@@ -13,10 +13,10 @@ The `Transient` module provides a uniform way to remove components from an entit
 | :------------: |:---------------:| :-----:|
 | `Transient`     | `TransientNode` | `TransientSystem` |
 
-##### External Dependencies
+#### External Dependencies
 * None
 
-##### Sample Usage 
+#### Sample Usage 
 ```haxe
 /**
  * Description:
